@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Display";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #FBFAFD;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 47px;
+  padding: 0 15%;
+  background-color: rgb(55, 55, 55);
+}
+#nav a {
+  color: rgba(213, 213, 213, 0.85);
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "SF Pro";
+  font-weight: 300;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#nav a:hover{
+  color: white;
+}
+.ri-apple-fill,
+.ri-search-line,
+.ri-shopping-bag-line {
+  color: rgba(213, 213, 213, 0.90);
+  font-size: 18px;
+  cursor: pointer;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+.ri-apple-fill:hover,
+.ri-search-line:hover,
+.ri-shopping-bag-line:hover{
+  color: #fff;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #fbfafd;
+  cursor: pointer;
+}
+#txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+}
+#txt h1 {
+  font-family: "SF Pro Display";
+  font-size: 57px;
+  font-weight: 600;
+}
+#txt h4 {
+  font-family: "SF Pro Display";
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+#btns {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+#btns a {
+  text-decoration: none;
+  color: #0080ff;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#btns a:hover {
+  text-decoration: underline 1px;
+}
+.one,
+.two {
+  display: flex;
+  align-items: center;
+}
+.ri-arrow-right-s-line {
+  color: #057ffa;
+  font-size: 20px;
+}
+#img img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50%;
+}
+
+
+
+#pg2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 102vh;
+  width: 100%;
+  height: 85vh;
+  background-color: #34283c;
+  cursor: pointer;
+}
+#txt2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 8%;
+}
+#txt2 h1 {
+  font-family: "SF Pro Display";
+  font-size: 57px;
+  font-weight: 600;
+  color: white;
+}
+#txt2 h4 {
+  font-family: "SF Pro Display";
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  color: #fec3fd;
+}
+#btns2 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#btns2 a {
+  text-decoration: none;
+  color: #0e7ded;
+  font-size: 20px;
+  font-weight: 350;
+  letter-spacing: .5px;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#btns2 a:hover {
+  text-decoration: underline 1px;
+}
+.one2,
+.two2 {
+  display: flex;
+  align-items: center;
+}
+.ri-arrow-right-s-line {
+  color: #0166cc;
+  font-size: 20px;
+}
+#img2 img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 70%;
+}
+
+
+#pg3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 189vh;
+  width: 100%;
+  height: 90vh;
+  background-color: #FBFBFD;
+  cursor: pointer;
+}
+#txt3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 7%;
+}
+#txt3 h1 {
+  font-family: "SF Pro Display";
+  font-size: 57px;
+  font-weight: 600;
+  color: black;
+}
+#txt3 h4 {
+  font-family: "SF Pro Display";
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  color: black;
+}
+#btns3 {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#btns3 a {
+  text-decoration: none;
+  color: #0080ff;
+  font-size: 20px;
+  font-weight: 350;
+  letter-spacing: .5px;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#btns3 a:hover {
+  text-decoration: underline 1px;
+}
+.one3,
+.two3 {
+  display: flex;
+  align-items: center;
+}
+.ri-arrow-right-s-line {
+  color: #0080ff;
+  font-size: 20px;
+}
+#img3 img {
+  position: absolute;
+ 
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 65%;
+}
+
+
+
+#pg4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#watch{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 281vh;
+  left: 2vh;
+  width: 48%;
+  height: 75vh;
+  cursor: pointer;
+  background-color: #F4F4F7;
+}
+#txt4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 7%;
+}
+#txt4 p {
+  font-family: "SF Pro Display";
+  font-size: 12px;
+  font-weight: 600;
+  color: #CF3C41;
+}
+#txt4 h4 {
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  color: black;
+}
+#btns4 {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#btns4 a {
+  text-decoration: none;
+  color: #0080ff;
+  font-size: 17px;
+  font-weight: 350;
+  letter-spacing: .5px;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#btns4 a:hover {
+  text-decoration: underline 1px;
+}
+.one4,
+.two4 {
+  display: flex;
+  align-items: center;
+}
+.ri-arrow-right-s-line {
+  color: #0080ff;
+  font-size: 17px;
+}
+#img4 img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+}
+
+
+
+#ipad{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 281vh;
+  right: 2vh;
+  width: 48%;
+  height: 75vh;
+  background-color: #FBFBFD;
+  cursor: pointer;
+}
+#txt5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+}
+#txt5 p {
+  font-family: "SF Pro Display";
+  font-size: 12px;
+  font-weight: 600;
+  color: #CF3C41;
+}
+#txt5 h4 {
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 5px;
+  color: black;
+}
+#btns5 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#btns5 a {
+  text-decoration: none;
+  color: #0e7ded;
+  font-size: 17px;
+  font-weight: 350;
+  /* letter-spacing: .5px; */
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+#btns5 a:hover {
+  text-decoration: underline 1px;
+}
+.one5,
+.two5 {
+  display: flex;
+  align-items: center;
+}
+.ri-arrow-right-s-line {
+  color: #0166cc;
+  font-size: 17px;
+}
+#img5 img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50%;
+}
+
+
+
+#bot{
+  position: absolute;
+  top: 358vh;
+  width: 100%;
+  height: 90vh;
+  background-color: #F5F5F7;
+  padding: 0 250px;
+}
+#bot p{
+  margin-top: 25px;
+  font-size: 11px;
+  color: #7d7d7d;
+  font-family: "SF Pro Display";
+}
+
+#botlnks{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  width: 100%;
+  height: 60%;
+}
+#botlnks a{
+  text-decoration: none;
+  color: #7d7d7d;
+  font-size: 12px;
+  padding-top: 10px;
+}
+#bot1,
+#bot2,
+#bot3,
+#bot4,
+#bot5{
+  display: flex;
+  flex-direction: column;
+}
+
+#bottom p{
+  font-size: 12px;
+}
+
+
+#botnav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+#botnav h6{
+  color: #7d7d7d;
+  font-weight: 400;
+  font-size: 13px;
+}
+#botnavlnks a{
+  text-decoration: none;
+  color: #7d7d7d;
+  font-size: 12px;
+}
+#botnavlnks a:hover{
+  color: black;
+}
+#botnavlnks{
+  color: #7d7d7d;
+}
